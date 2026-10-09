@@ -2,6 +2,8 @@
 data/raw/
 data/audio/
 data/transcripts/
+data/transcripts_large_model/
+data/transcripts_hybrid/
 
 # Python / Jupyter
 .venv/

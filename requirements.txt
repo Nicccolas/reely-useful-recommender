@@ -1,0 +1,16 @@
+# Direct dependencies, pinned to the versions the project was developed with.
+# Python 3.11. Also requires ffmpeg (not a pip package): conda install -c conda-forge ffmpeg
+
+torch==2.14.1
+transformers==5.19.0
+sentence-transformers==6.1.0
+accelerate==1.15.0
+scikit-learn==1.9.1
+scipy==1.17.1
+numpy==2.4.6
+pandas==3.0.6
+
+# Notebooks
+jupyterlab==4.6.4
+ipykernel==7.4.0
+ipywidgets==8.1.9

@@ -1,0 +1,39 @@
+{
+  "_note": "Each folder's 'intent' is the hidden ground truth used to write labels. It is NEVER passed to the model; the model only sees folder names (until we explicitly experiment with richer folder representations).",
+  "users": [
+    {
+      "user_id": "user_a",
+      "persona": "Few broad, clearly named folders (4). Easy case for title-based ranking, with one mild ambiguity: interview advice could go to Career or Data Science.",
+      "folders": [
+        {"name": "Sports", "intent": "Any sport: technique tips, drills, pro gameplay, highlights."},
+        {"name": "Data Science", "intent": "ML and data science concepts, projects, questions."},
+        {"name": "Career", "intent": "Job and interview advice, including data science interviews."},
+        {"name": "Funny", "intent": "Anything humorous: skits, stand-up, funny moments."}
+      ]
+    },
+    {
+      "user_id": "user_b",
+      "persona": "Many fine-grained folders (7) with distinctions that depend on the user's habits: technique vs highlights, comedy vs things to share with a friend.",
+      "folders": [
+        {"name": "Volleyball Technique", "intent": "Volleyball how-to: jumping, hitting, spiking form."},
+        {"name": "Tennis Technique", "intent": "Tennis how-to: strokes, serve mechanics, fixes."},
+        {"name": "Pro Highlights", "intent": "Professional athletes playing, in any sport, including slow-motion highlights."},
+        {"name": "Data Science Interviews", "intent": "Interview prep and advice for data science roles."},
+        {"name": "ML Projects", "intent": "Machine learning project ideas and questions."},
+        {"name": "Comedy", "intent": "Produced comedy: stand-up and skits."},
+        {"name": "Things to Send Sarah", "intent": "Funny everyday moments to share with a friend."}
+      ]
+    },
+    {
+      "user_id": "user_c",
+      "persona": "Vague, personal folder names (5). Title-only ranking should struggle; motivates folder-content representations later.",
+      "folders": [
+        {"name": "Good Stuff", "intent": "Educational content to learn from: data science and ML concepts."},
+        {"name": "Try Later", "intent": "Sports technique tips to practice later (volleyball, tennis)."},
+        {"name": "Inspo", "intent": "Impressive athletes and gameplay for motivation, including slow-motion clips."},
+        {"name": "lol", "intent": "All funny content."},
+        {"name": "Work", "intent": "Career and job-interview advice."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+video_id,user_id,correct_folder,also_relevant
+reel_001,user_a,Sports,
+reel_001,user_b,Volleyball Technique,
+reel_001,user_c,Try Later,
+reel_002,user_a,Sports,
+reel_002,user_b,Pro Highlights,Volleyball Technique
+reel_002,user_c,Inspo,Try Later
+reel_003,user_a,Sports,
+reel_003,user_b,Volleyball Technique,
+reel_003,user_c,Try Later,
+reel_004,user_a,Sports,
+reel_004,user_b,Volleyball Technique,Pro Highlights
+reel_004,user_c,Inspo,Try Later
+reel_005,user_a,Career,Data Science
+reel_005,user_b,Data Science Interviews,
+reel_005,user_c,Work,Good Stuff
+reel_006,user_a,Data Science,
+reel_006,user_b,ML Projects,
+reel_006,user_c,Good Stuff,
+reel_007,user_a,Career,Data Science
+reel_007,user_b,Data Science Interviews,
+reel_007,user_c,Work,Good Stuff
+reel_008,user_a,Funny,
+reel_008,user_b,Things to Send Sarah,Comedy
+reel_008,user_c,lol,
+reel_009,user_a,Funny,
+reel_009,user_b,Things to Send Sarah,Comedy
+reel_009,user_c,lol,
+reel_010,user_a,Sports,
+reel_010,user_b,Tennis Technique,
+reel_010,user_c,Try Later,
+reel_011,user_a,Sports,
+reel_011,user_b,Tennis Technique,
+reel_011,user_c,Try Later,
+reel_012,user_a,Sports,
+reel_012,user_b,Pro Highlights,Tennis Technique
+reel_012,user_c,Inspo,
+reel_013,user_a,Funny,Sports
+reel_013,user_b,Comedy,
+reel_013,user_c,lol,
+reel_014,user_a,Funny,
+reel_014,user_b,Comedy,
+reel_014,user_c,lol,

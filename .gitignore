@@ -1,0 +1,9 @@
+# Raw media and derived audio (large / copyrighted)
+data/raw/
+data/audio/
+data/transcripts/
+
+# Python / Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
